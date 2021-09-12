@@ -1,0 +1,119 @@
+img{
+    border: 50px solid;
+    border-color: rgb(139, 207, 238);
+    border-width: medium;
+    align-items: center;
+    
+
+}
+.d{
+    display: flex;
+    flex-wrap:  wrap-reverse;
+    justify-content:space-evenly;
+    background-color: rgb(247, 156, 82);
+}
+h1{
+   
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: small;
+} 
+.r{
+    display: flex;
+    flex-wrap:  wrap-reverse;
+    justify-content:space-evenly;
+    background-color: rgb(166, 101, 250);
+}
+.u{
+    display: flex;
+    flex-wrap:  wrap-reverse;
+    justify-content:space-evenly;
+    background-color: rgb(252, 250, 126);
+}
+.v{
+    display: flex;
+    flex-wrap:  wrap-reverse;
+    justify-content:space-evenly;
+    background-color: rgb(0, 255, 213);
+}
+
+a:link{
+    color:rgb(163, 22, 206);
+}
+
+a:visited{
+    color:rgb(233, 22, 145)
+}
+
+.image {
+    position: relative;
+}
+.image p{
+
+    position: absolute;
+    top: 2%;
+    left:10%;
+    transform:translate(-40%,-40%);
+    opacity:0;
+    
+}
+
+.image:hover p{
+    opacity:1;
+    
+}
+
+.h {
+    position: relative;
+}
+.h p{
+
+    position: absolute;
+    top: 5%;
+    left:10%;
+    transform:translate(-40%,-40%);
+    opacity:0;
+}
+.h:hover p{
+    opacity:1;
+}
+.k {
+    position: relative;
+}
+.k p{
+
+    position: absolute;
+    top: 5%;
+    left:10%;
+    transform:translate(-40%,-40%);
+    opacity:0;
+   
+}
+.k:hover p{
+    opacity:1;
+   
+}
+
+
+
+.f {
+    position: relative;
+}
+
+.f p{
+
+    position: absolute;
+    top: 5%;
+    left:15%;
+    transform:translate(-40%,-40%);
+    opacity:0;
+    
+}
+.f:hover p{
+    opacity:1; 
+    
+}
